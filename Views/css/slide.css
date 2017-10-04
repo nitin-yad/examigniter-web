@@ -1,0 +1,39 @@
+h2{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item{
+    background: #333;
+    text-align: center;
+    height: 400px !important;
+}
+.carousel{
+    margin-top: 20px;
+    /*min-height: 520px;*/
+}
+.bs-example{
+    margin: 20px;
+}
+.thumbnail {
+    width: 260px;
+    height: 180px;
+    overflow: hidden; /* contain images within thumbnail boundaries */
+    border: 0; /* removes Bootstrap's default border */
+    box-shadow: 0 12px 12px -10px #c4c4c4;
+    -webkit-box-shadow: 0 17px 22px -20px #c4c4c4;
+    -moz-box-shadow: 0 12px 12px -10px #c4c4c4;
+}
+.thumbnail img { width:100%; height:auto; } /* to keep proportions */
+.thumbnails p { text-align: center; padding: 10px; } /* captions can be styled with an inline element */
+
+html,body {
+    height:100%;
+}
+
+.carousel-inner,.carousel,.item,.container,.fill {
+    height:100%;
+    width:100%;
+}

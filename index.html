@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ExamIgniter</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="Views/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="Views/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="Views/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <link href="Views/css/freelancer.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="Views/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" >
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll navbar-left">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#page-top">Start Igniting With Us</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div  class="navbar-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><button type="submit" class="btn btn-default" id="login_button" data-toggle="modal" data-target="#login">Login</button></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><button type="submit" class="btn btn-default" id="signup_button" data-toggle="modal" data-target="#signup">Sign Up</button></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br><br>
+                <h2>Exams</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 text-center portfolio-item">
+                <div style="font-size:35px;">GATE</div>
+                Graduate Aptitude Test for Engineers<br><br>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#gate">START</button>
+            </div>
+            <div class="col-sm-4 text-center portfolio-item">
+                <div style="font-size:35px;">GRE</div>
+                Graduate Record Examination <br><br>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#gre">START</button>
+            </div>
+            <div class="col-sm-4 text-center portfolio-item">
+                <div style="font-size:35px;">CAT</div>
+                Common Aptitude Test <br><br>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#cat">START</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>Green Glen Layout
+                        <br>Bangalore, India 560103</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About ExamIgniter</h3>
+                    <p>ExamIgniter is an initiative to support the students in the preparation of various competitive exams.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; 2014 - ExamIgniter
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="scroll-top page-scroll visible-xs visble-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Portfolio Modals // Append the Test And Prepare button html code here -->
+<div id="port_modals">
+    <div class="modal fade" id="gate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header " align="center">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title center-block" id="myModalLabel">GATE</h4>
+                </div>
+                <div class="modal-body">
+                    <div align="center">
+                        <a href="Views/study.php">
+                            <button type="button" class="btn btn-primary">Prepare</button>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="Views/test.php">
+                            <button type="button" class="btn btn-primary">Test</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="gre" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header " align="center">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title center-block" id="myModalLabel_1">GRE</h4>
+                </div>
+                <div class="modal-body">
+                    <div align="center">
+                        <button type="button" class="btn btn-primary">Prepare</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-primary">Test</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header " align="center">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title center-block" id="myModalLabel_2">CAT</h4>
+                </div>
+                <div class="modal-body">
+                    <div align="center">
+                        <button type="button" class="btn btn-primary">Prepare</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-primary">Test</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--login signup modals-->
+<div id="login_signup_modal">
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="wrapper">
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Please login</h2>
+                <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+                <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                </label>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="Views/js/jquery-1.10.2.js"></script>
+<script src="Views/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="Views/js/classie.js"></script>
+<script src="Views/js/cbpAnimatedHeader.js"></script>
+<script src="Views/js/freelancer.js"></script>
+
+</body>
+
+</html>
